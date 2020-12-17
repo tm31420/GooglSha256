@@ -14,7 +14,7 @@ with open("addrs.txt") as file:
 
         ss = str.strip(line)
         print "__________________________________________________\n"
-        print "Converting pvk: " + ss
+        print "Converting string: " + ss
         
         convert(ss)
 
