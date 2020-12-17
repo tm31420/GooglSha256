@@ -1,6 +1,6 @@
 
 import binascii, hashlib, base58, sys, ecdsa, codecs
-ra = open('sha256ofaddr.txt', 'w')
+ra = open('sha256ofaddrs.txt', 'w')
 
 
 def convert(aa):
